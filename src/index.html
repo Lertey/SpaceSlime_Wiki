@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceSlime Wiki</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <script src="https://kit.fontawesome.com/1d9c5e8f97.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-mainColor">
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="loader">
+                <div class="cell d-0"></div>
+                <div class="cell d-1"></div>
+                <div class="cell d-2"></div>
+                <div class="cell d-1"></div>
+                <div class="cell d-2"></div>
+                <div class="cell d-2"></div>
+                <div class="cell d-3"></div>
+                <div class="cell d-3"></div>
+                <div class="cell d-4"></div>
+            </div>
+        </div>
+    </div>
+    <header class="conrainer mx-auto border-solid border-b-2 border-line text-white">
+        <div class="flex justify-between px-nav pt-8 pb-5">
+            <span class="font-medium text-2xl">SpaceSlime Wiki</span>
+            <div class="space-x-4">
+                <a href="https://spaceslime.fun/" class="inline-block text-xl duration-300 hover:scale-125"><i class="fa-solid fa-arrow-up-right-from-square"></i>  Home</a>
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto text-white pt-32">
+        <div class="flex justify-center">
+            <div class="flex flex-col text-center">
+                <img src="" alt="">
+                <h2 class="text-3xl">SpaceSlime Wiki</h2>
+                <p class="text-2xl mt-3">Вики для комфортной игры на сервере SpaceSlime</p>
+                <button class="go mt-6 py-3 hover:scale-110 duration-300" style="vertical-align:middle"><a href="install.html"
+                        class="text-xl block">Начать</a></button>
+                <div class="flex flex-row justify-around border-solid border-t-2 border-line mt-10">
+                    <div class="flex flex-col w-64 text-start py-10">
+                        <p class="text-2xl pb-7"><i class="fa-solid fa-tower-broadcast"></i>  Комьюнити</p>
+                        <p>Самое дружелюбное комьюнити которое вы могли бы найти! Стань частью его.</p>
+                    </div>
+                    <div class="flex flex-col w-64 text-start py-10">
+                        <p class="text-2xl pb-7"><i class="fa-solid fa-phone"></i>  Играбельность</p>
+                        <p>Со всеми проблемами которыми вы можете столкнуться, вам поможет наш support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container flex justify-center mx-auto border-solid border-t-2 border-line mt-10 text-white">
+        <p class="text-xl mt-10">SpaceSlime.fun | Copyright © 2023</p>
+    </footer>
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceSlime Wiki | Install</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <script src="https://kit.fontawesome.com/1d9c5e8f97.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-mainColor">
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="loader">
+                <div class="cell d-0"></div>
+                <div class="cell d-1"></div>
+                <div class="cell d-2"></div>
+                <div class="cell d-1"></div>
+                <div class="cell d-2"></div>
+                <div class="cell d-2"></div>
+                <div class="cell d-3"></div>
+                <div class="cell d-3"></div>
+                <div class="cell d-4"></div>
+            </div>
+        </div>
+    </div>
+    <header class="conrainer mx-auto border-solid border-b-2 border-line text-white">
+        <div class="flex justify-between px-nav pt-8 pb-5">
+            <span class="font-medium text-2xl">SpaceSlime Wiki</span>
+            <div class="space-x-4">
+                <a href="https://spaceslime.fun/" class="inline-block text-xl duration-300 hover:scale-125"><i
+                        class="fa-solid fa-arrow-up-right-from-square"></i> Home</a>
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto text-white">
+        <div class="flex justify-center">
+            <div class="flex flex-col text-center mt-10 w-112">
+                <p class="text-3xl font-black "><i class="fa-solid fa-rocket"></i> Установка лаунчера</p>
+                <p class="pb-5 pt-8 text-2xl self-start px-3">Установка Java </p>
+                <div class="border-solid border-b-2 border-line rounded"></div>
+                <div class="text-start px-10 pt-5">
+                    <p> Сначала нужно скачать и установить нужную для вашего ПК Java. Без неё лаунер просто не сможет
+                        запуститься. Для этого вам нужно знать что у вас за система и её разрядрость</p>
+                    <div class="pt-2">
+                        <p>・ Windows x64: <a
+                                href="https://download.bell-sw.com/java/8u362+9/bellsoft-jdk8u362+9-windows-amd64-full.msi"
+                                class="text-blue-400 hover:underline duration-300 ">Скачать</a></p>
+                        <p>・ Windows x86 (x32): <a href="" class="text-blue-400 hover:underline ">Скачать</a></p>
+                        <p>・ Linux: <a
+                                href="https://download.bell-sw.com/java/8u362+9/bellsoft-jdk8u362+9-linux-amd64-full.deb"
+                                class="text-blue-400 hover:underline duration-300">Скачать (.deb)</a>, <a
+                                href="https://download.bell-sw.com/java/8u362+9/bellsoft-jdk8u362+9-linux-amd64-full.tar.gz"
+                                class="text-blue-400 hover:underline duration-300">Скачать (.tar.gz)</a></p>
+                        <p>・ Mac: <a
+                                href="https://download.bell-sw.com/java/8u362+9/bellsoft-jdk8u362+9-macos-amd64-full.dmg"
+                                class="text-blue-400 hover:underline duration-300">Скачать (.dmg)</a>, <a
+                                href="https://download.bell-sw.com/java/8u362+9/bellsoft-jdk8u362+9-macos-amd64-full.pkg"
+                                class="text-blue-400 hover:underline duration-300">Скачать (.pkg)</a></p>
+                        <p class="mt-4">Теперь устанавливаем скачанный вами файл. Способ установки может отличаться в
+                            зависимости от вашей ОС. <span class="text-green-400 ">Рекомендуем перезапустить ПК.</span>
+                        </p>
+                        <p class="mt-3">
+                        <h1 class="text-red-400 text-xl">ВНИМАНИЕ</h1>
+                        Операционные системы Windows 7, 8, 8.1 не имеют официальной поддержки! Все проблемы которые
+                        могут возникнуть при использовании лаунчера на этих ОС не обрабатываются в support.</p>
+                    </div>
+                </div>
+                <p class="pb-5 pt-8 text-2xl self-start px-3">Установка лаунчера </p>
+                <div class="border-solid border-b-2 border-line rounded"></div>
+                <div class="text-start px-10 pt-5">
+                    <p>После того как мы прошли первый шаг, можем установить лаунчер. Для этого скачиваем файл лаунчера
+                        и переносим его в удобное место. </p>
+                    <a href="#">
+                        <button class="button flex mx-auto mt-3">
+                            Лаунчер
+                        </button>
+                    </a>
+                    <p class="mt-3">После этого запускаем лаунчер и входим в свой подтверждённый аккаунт, ранее
+                        созданный на <a href="http://spaceslime.fun/user/register"
+                            class="text-blue-400 hover:underline">Spaceslime.fun</a>.</p>
+                    <p class="mt-3">
+                    <h1 class="text-green-400 text-xl">Для Linux</h1>
+                    Для запуска лаунчера рекомендуется использовать консоль.</p>
+                    <div class="py-2 px-3 bg-slate-800 rounded-xl mt-3">java -jar <span class="text-orange-400 ">spaceslime.jar</span></div>
+                    <p>Если вы не установили Java а скачали архив, то java земените на путь</p>
+                    <div class="py-2 px-3 bg-slate-800 rounded-xl mt-3">"{path}" -jar <span class="text-orange-400 ">spaceslime.jar</span></div>
+                    <div class="flex justify-around mt-14">
+                        <a href=""><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i>  GitHub страница</a>
+                        <p>Созданно: 12/02/2023, by <a href="https://lertey.cf/" class="text-blue-400 hover:underline">Lertey</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container flex justify-center mx-auto border-solid border-t-2 border-line mt-10 text-white">
+        <p class="text-xl my-10">SpaceSlime.fun | Copyright © 2023</p>
+    </footer>
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+    </script>
+</body>
+
+</html>
